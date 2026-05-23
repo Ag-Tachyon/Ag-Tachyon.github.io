@@ -4,7 +4,7 @@ La página consiste en crear un sitio web donde se puedan comercializar camiseta
 La idea es que la página tenga un dieño agradable a la vista, que el usuario se pueda mover con libertad y que logre entedender las diferentes funcionalidades que la página tiene. 
 
 > [!IMPORTANT]
-> Por razones obvias, esta página no será funcional al 100%, esto es solo un proyecto personal con el objetivo de mejoramiento personal en programación :)
+> Por razones obvias, esta página no será funcional al 100%, esto es solo un proyecto personal con el objetivo de mejorar personalmente en programación :)
 
 ### Objetivo
 * Mejorar habilidades y conceptos en el UI/UX
@@ -15,7 +15,7 @@ La idea es que la página tenga un dieño agradable a la vista, que el usuario s
 * HTML5 -> (Estructura general de la página)
 * JavaScript -> (Dinamismo en la página)
 * CSS -> (Estilos de la página)
-* Jason -> (como base de datos)
+* Json -> (como base de datos)
 
 ### Paleta de colores
 * sand-clear: #F2EDE3;

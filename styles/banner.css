@@ -1,0 +1,92 @@
+.banner-container{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner__article{
+    background: linear-gradient(to right, rgba(20,20,20,1), rgba(20,20,20,0)) ,var(--bg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+    min-width: 100%;
+
+    position: relative;
+}
+
+.banner__info-container{
+    /* background-color: rebeccapurple; */
+    max-width: 400px;
+    position: absolute;
+    top: 150px;
+    left: 90px;
+}
+
+.banner__title{
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Aquí defines el número de líneas */
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+
+    font-size: 3.5rem;
+    max-height: 7em;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+
+    color: var(--pure-white);
+    font-family: var(--outfit);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.banner__tags-container{
+    padding-bottom: .8125rem;
+    display: flex;
+    gap: .625em;
+}
+
+.banner__tags{
+    border: solid thin white;
+    padding: .3438em;
+    box-sizing: border-box;
+    color: var(--pure-white);
+    font-size: .775em;
+    font-weight: bold;
+    border-radius: .3125em;
+}
+
+.banner__description{
+    color: var(--pure-white);
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    opacity: 0.9;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+}
+
+.banner__info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    left: 80px; 
+}
+
+.banner__link {
+    background-color: var(--color-principal);
+    border-radius: .3125em;
+    color: var(--pure-white);
+    text-align: center;
+    width: 30%;
+    padding: .9375em;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.banner__link:hover{
+    opacity: .8;
+}

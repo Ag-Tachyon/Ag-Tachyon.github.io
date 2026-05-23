@@ -1,0 +1,40 @@
+:root{
+    --sand-clear: #F2EDE3;
+    --verde-oscuro: #45594E;
+    --verde-salvia: #8DB58A;
+    --amarillo-crema: #F4E0A6;
+    --ocre-dorado: #D4B774;
+    --marron-arena: #A69068;
+    --blanco: #FDFBF7;
+    --pure-white: #e0e0e0;
+
+    --outfit: "Outfit", sans-serif; /* Títulos */
+    --quicksand: "Quicksand", sans-serif; /* Cuerpos de texto */
+}
+
+/* 
+    Usos para cada color:  
+
+    Verde Oscuro -> texto principal (títulos, cuerpo de texto importante), 
+                    pies de página (footer) y elementos que necesiten mucha legibilidad.
+                    También funciona increíble para botones secundarios.
+    
+    Verde Salvia -> botones de "Añadir al carrito", iconos, elementos de carga o secciones 
+                    destacadas
+
+    Amarillo Crema -> fondos de secciones especiales, tarjetas de productos (cards) con fondo 
+                      claro o para resaltar ofertas/promociones sin ser agresivo.
+
+    Ocre Dorado -> detalles sutiles como etiquetas de precios, bordes de elementos, o incluso 
+                   para enfatizar el estado de "Agotado/En oferta".
+
+    Marrón Arena -> para textos secundarios, descripciones pequeñas de productos, líneas divisorias 
+                    muy finas o iconos de menor importancia.
+*/
+
+
+
+body{
+    background-color: var(--sand-clear);
+    font-family: var(--quicksand);
+}

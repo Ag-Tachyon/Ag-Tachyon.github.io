@@ -1,0 +1,32 @@
+{
+    "BabyMetal":{
+        "id": 1,
+        "title": "THE LEGEND IS HERE",
+        "tipo":[
+            "verano",
+            "exclusiva",
+            "banda"
+        ],
+        "nombre": "BabyMetal Colab",
+        "textoInfo" : "La fuerza del Metal Resistance se une al diseño contemporáneo. Descubre nuestra cápsula exclusiva de camisetas premium, inspiradas en la estética monocromática y la energía imparable de BABYMETAL. Piezas diseñadas para quienes no temen destacar.",
+        "img": "../multimedia/babymetal.png",
+        "colorPrincipal": "rgb(141, 4, 4)"
+    },
+    "OnePiece":{
+        "id": 2,
+        "title": "RUMBO AL ONE PIECE",
+        "tipo":[
+            "Nuevo",
+            "Limited",
+            "Manga",
+            "Anime"
+        ],
+        "nombre": "One Piece Colab",
+        "textoInfo" : "La libertad absoluta llega a tu armario con nuestra colección especial Gear 5. Diseños inspirados en el Dios del Sol Nika, con acabados premium y detalles que solo un verdadero nakama sabrá reconocer. Únete a la liberación.",
+        "img": "https://i.pinimg.com/1200x/2d/1c/7f/2d1c7ffcedc59da9210db92f4fef7179.jpg",
+        "colorPrincipal": "#a350e7"
+    }
+}
+
+
+

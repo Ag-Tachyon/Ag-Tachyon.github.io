@@ -1,10 +1,9 @@
 import { fetchData } from "./api.js";
 
 const datos = await fetchData("../json/bannerPrincipalBd.json");
-
 const bannerContainer = document.querySelector('.banner-container');
-
 const datosArray = Object.keys(datos); // -> Debemos tener en cuenta que esto solo retorna la Keys, entonces no tenemos sus propiedades (nombre, title, etc, en este caso)
+const overlay = document.getElementById('overlay')
 
 datosArray.forEach(element => {
     
@@ -30,4 +29,29 @@ datosArray.forEach(element => {
     bannerContainer.insertAdjacentHTML('afterbegin' , bannerArticle)
 });
 
+const timeFunction = ()=> {
+    setTimeout(() => {
+            overlay.classList.add('active') // El active es para poder activar la transición
+    } , 3000)
+}
+timeFunction() // Tenemos que llamarlo una vez por fuera para que el addEventListener del overlay se pueda ejecutar
+
+
+let indiceActualDelBanner = 0;
+let cantBanners = datosArray.length;
+overlay.addEventListener('transitionend' , () => {
+
+    if (!overlay.classList.contains('active')) return;
+    /** Evita el doble disparo de 'transitionend' cuando el overlay se aclara, ya que el compu 
+    detecta las transiciones (sin importar si es de negro a trans o viceversa) y se ejecutará siempre,
+    entonces habrá veces que cuando pase de negro a transparente (hay una transición) el overlay
+    entrará con "active" y el listener se ejecutará, no queremos eso, para eso es este if, si tiene active, ignora
+    la transición hasta que no tenga el active. */
+    indiceActualDelBanner = (indiceActualDelBanner + 1) % cantBanners;
+    
+    bannerContainer.style.transform = `translateX(-${indiceActualDelBanner * 100}%)`;
+    overlay.classList.remove('active');
+
+    timeFunction() // Como el overlay no tiene "active" volvemos a ejecutar el tiempo
+})
 

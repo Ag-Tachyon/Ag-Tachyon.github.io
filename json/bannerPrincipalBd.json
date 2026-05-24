@@ -25,7 +25,35 @@
         "textoInfo" : "La libertad absoluta llega a tu armario con nuestra colección especial Gear 5. Diseños inspirados en el Dios del Sol Nika, con acabados premium y detalles que solo un verdadero nakama sabrá reconocer. Únete a la liberación.",
         "img": "https://i.pinimg.com/1200x/2d/1c/7f/2d1c7ffcedc59da9210db92f4fef7179.jpg",
         "colorPrincipal": "#a350e7"
-    }
+    },
+    "Frieren":{
+        "id": 3,
+        "title": "Frieren: the magic continues",
+        "tipo":[
+            "Exclusiva",
+            "Edición limitada",
+            "Manga",
+            "Anime"
+        ],
+        "nombre": "Frieren Colab",
+        "textoInfo" : "La sabiduría de milenios se fusiona con el diseño contemporáneo. Descubre nuestra cápsula exclusiva de camisetas premium, inspiradas en el viaje atemporal y los recuerdos de FRIEREN. Piezas diseñadas para quienes valoran la conexión y el significado detrás de cada momento.",
+        "img": "../multimedia/frieren.png",
+        "colorPrincipal": "#1e3d38"
+    },
+    "Umamusume": {
+        "id": 4,
+        "title": "UMAMUSUME: CINDERELLA GRAY",
+        "tipo": [
+            "exclusiva",
+            "manga",
+            "limited"
+        ],
+        "nombre": "Umamusume Colab",
+        "textoInfo": "La adrenalina de la pista y la lucha por la gloria se fusionan en nuestra cápsula más rápida. Inspirada en la determinación inquebrantable y el asfalto de Cinderella Gray, esta colección premium está diseñada para quienes corren hacia sus sueños sin mirar atrás.",
+        "img": "../multimedia/fast.png",
+        "colorPrincipal": "#0d1b2a"
+    }   
+    
 }
 
 

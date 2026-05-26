@@ -1,5 +1,6 @@
 :root{
     --sand-clear: #F2EDE3;
+    --negro-fondo: #121212;
     --verde-oscuro: #45594E;
     --verde-salvia: #8DB58A;
     --amarillo-crema: #F4E0A6;
@@ -35,6 +36,6 @@
 
 
 body{
-    background-color: var(--sand-clear);
+    background-color: var(--negro-fondo);
     font-family: var(--quicksand);
 }

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "titulo": "¿Qué buscas hoy?",
+    "placeholder": "Busca tu colab favorita (Frieren, One Piece...)"
+  },
+  {
+    "id": 2,
+    "titulo": "Siguiente parada: ¡Tu armario!",
+    "placeholder": "Busca hoodies, pantalones, oversize..."
+  },
+  {
+    "id": 3,
+    "titulo": "Saca tu lado rockero 🤘",
+    "placeholder": "Encuentra merch de Ghost y BabyMetal..."
+  },
+  {
+    "id": 4,
+    "titulo": "Desafía el asfalto",
+    "placeholder": "Busca la colección de Umamusume: Cinderella Gray..."
+  }
+]

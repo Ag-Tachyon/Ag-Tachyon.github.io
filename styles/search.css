@@ -18,6 +18,8 @@
 
 .search__title{
     font-size: clamp(2rem, 4vw, 3rem);
+    overflow-wrap: break-word;
+    max-width: 80%;
     text-align: center;
     font-size: 1.75em;
     font-weight: bold;

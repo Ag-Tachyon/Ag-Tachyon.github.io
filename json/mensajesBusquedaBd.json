@@ -2,7 +2,7 @@
   {
     "id": 1,
     "titulo": "¿Qué buscas hoy?",
-    "placeholder": "Busca tu colab favorita (Frieren, One Piece...)"
+    "placeholder": "Busca tu colab favorita"
   },
   {
     "id": 2,
@@ -11,12 +11,37 @@
   },
   {
     "id": 3,
-    "titulo": "Saca tu lado rockero 🤘",
+    "titulo": "Modernicemos tu armario",
     "placeholder": "Encuentra merch de Ghost y BabyMetal..."
   },
   {
     "id": 4,
     "titulo": "Desafía el asfalto",
     "placeholder": "Busca la colección de Umamusume: Cinderella Gray..."
+  },
+  {
+    "id": 5,
+    "titulo": "Busca tu outfit ideal",
+    "placeholder": "Buscas algo para una ocasión espacial?"
+  },
+  {
+    "id": 6,
+    "titulo": "Desafía la leyes de la estética",
+    "placeholder": "No tenemos por qué vernos todos iguales"
+  },
+  {
+    "id": 7,
+    "titulo": "Crea tu propio estilo",
+    "placeholder": "Crea tus propias combinaciones con nuestras colabs"
+  },
+  {
+    "id": 8,
+    "titulo": "Cambia el chip de lo habitual",
+    "placeholder": "Explora nuestra nnueva mercancía"
+  },
+  {
+    "id": 9,
+    "titulo": "Sé tú mismo hoy",
+    "placeholder": "Por dónde empezamos?"
   }
 ]

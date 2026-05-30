@@ -1,0 +1,14 @@
+.gender{
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.gender__article{
+    background: var(--bg) top center;
+    background-size: cover;
+    width: 25%;
+    height: 450px;
+    border-radius: 10px;
+}

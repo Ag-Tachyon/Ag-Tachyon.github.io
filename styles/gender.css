@@ -109,11 +109,17 @@
 }
 
 .gender__container .gender__surprise {
+    position: relative;
+
     grid-column-start: 5;
     grid-column-end: 6;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: yellowgreen;
+    
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: var(--negro-cajas);
+
 }
 
 .gender__container .gender__mujer {
@@ -146,4 +152,110 @@
 
 .gender__p{
     letter-spacing: .125em;
+}
+
+/* DADO */
+
+.dice{
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    place-items: center;
+}
+
+.gender__surprise::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    width: 50%;
+    height: 70%;
+    border-radius: 45%;
+
+    filter: blur(1.8125em);
+
+    background-color: rgba(139,92,246,.12);
+}
+
+.dice__face{
+    background-color: var(--pure-white);
+    width: 70%;
+    height: 75%;
+    opacity: .6;
+    border-radius: 50%;
+}
+
+.dice__face{
+    display: none;
+}
+
+.dice__face--uno {
+    grid-area: 1 / 1; 
+}
+
+.dice__face--dos {
+    grid-area: 1 / 3; 
+}
+
+.dice__face--tres {
+    grid-area: 2 / 1; 
+}
+
+.dice__face--cuatro {
+    grid-area: 2 / 2; 
+}
+
+.dice__face--cinco {
+    grid-area: 2 / 3; 
+}
+
+.dice__face--seis {
+    grid-area: 3 / 1; 
+}
+
+.dice__face--siete {
+    grid-area: 3 / 3; 
+}
+
+.dice__cara-uno .dice__face--cuatro{
+    display: block;
+}
+
+.dice__cara-dos .dice__face--uno,
+.dice__cara-dos .dice__face--siete{
+    display: block;
+}
+
+.dice__cara-tres .dice__face--uno,
+.dice__cara-tres .dice__face--cuatro,
+.dice__cara-tres .dice__face--siete{
+    display: block;
+}
+
+.dice__cara-cuatro .dice__face--uno,
+.dice__cara-cuatro .dice__face--dos,
+.dice__cara-cuatro .dice__face--seis,
+.dice__cara-cuatro .dice__face--siete{
+    display: block;
+}
+
+.dice__cara-cinco .dice__face--uno,
+.dice__cara-cinco .dice__face--dos,
+.dice__cara-cinco .dice__face--cuatro,
+.dice__cara-cinco .dice__face--seis,
+.dice__cara-cinco .dice__face--siete{
+    display: block;
+}
+
+.dice__cara-seis .dice__face--uno,
+.dice__cara-seis .dice__face--dos,
+.dice__cara-seis .dice__face--tres,
+.dice__cara-seis .dice__face--cinco,
+.dice__cara-seis .dice__face--seis,
+.dice__cara-seis .dice__face--siete{
+    display: block;
 }

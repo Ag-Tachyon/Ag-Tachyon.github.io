@@ -1,7 +1,7 @@
 .search{
     position: relative;
 
-    background-color: #1a1a1a;
+    background-color: var(--negro-cajas);
     width: 50%;
     margin-top: 4%;
     margin-left: 25%;

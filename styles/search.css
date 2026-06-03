@@ -45,6 +45,7 @@
     font-family: var(--quicksand);
     color: var(--pure-white);
     margin-bottom: .5em;
+    padding-top: .9375em;
 }
 
 .search input{
